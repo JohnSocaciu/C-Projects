@@ -14,6 +14,18 @@
 using namespace std;
 
 
+class Car{
+public: 
+string name;
+int price; 
+string car; 
+    Car(string personsName, int pricing, string carName){
+        name = personsName; 
+        price = pricing;
+        car = carName; 
+    }
+};
+
 // Write functions here
 
 double BMIcalculator(double weight){
